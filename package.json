@@ -1,0 +1,22 @@
+{
+  "name": "electron-SQLite-integration",
+  "version": "0.1.0",
+  "description": "User Registration Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/theInfinite/electron-SQLite-integration",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Sahil Soni",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "~1.7.8"
+  }
+}

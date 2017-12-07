@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>User Registration</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script>
+      delete module.exports
+  </script>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="./renderer.js"></script>
+
+</head>
+
+<body>
+
+<div class="container" id="contact_panel" style="display: block;">
+
+  <h1>CONTACT FORM</h1>
+
+  <form id="mycontact">
+
+    <fieldset>
+
+      <legend>Your details</legend>
+
+      <ol>
+
+        <li>
+
+          <label for="username">Name</label>
+
+          <input style="width: 225px;" id="username" type="text" placeholder="First and last name" required autofocus pattern=" ">
+
+          <input type="hidden" id="id"/>
+
+        </li>
+
+        <li>
+
+          <label for="useremail">Email</label>
+
+          <input style="width: 225px;" id="useremail" type="text" placeholder="example@domain.com" required pattern=" ">
+
+        </li>
+
+        <li>
+
+          <label for="contact">Contact</label>
+
+          <input style="width: 225px;" id="contact" type="text" placeholder="##########" required pattern=" ">
+
+        </li>
+
+      </ol>
+
+    </fieldset>
+
+    <button id="btnReset" type=submit>Reset</button>
+
+    <button id="submitButton" type="submit">SAVE</button>
+
+    <button id="btnUpdate" type=submit>UPDATE</button>
+
+    <button id="btnDrop" type=submit>DROP</button>
+
+  </form><br />
+
+  <div id="results"></div>
+</div>
+
+</body>
+
+</html>
