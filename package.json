@@ -9,10 +9,13 @@
   "repository": "https://github.com/theInfinite/electron-SQLite-integration",
   "keywords": [
     "Electron",
-    "quick",
+    "sqlite",
     "start",
     "tutorial",
-    "demo"
+    "demo",
+    "nodejs",
+    "database",
+    "desktop app"
   ],
   "author": "Sahil Soni",
   "license": "ISC",

@@ -8,7 +8,7 @@ Developing desktop application using Electron and storing data to SQLite databas
 - `index.html` - A web page to render. This is the app's **renderer process**.
 - `renderer.js` - Contains backend functionality related with **SQLite Integration**.
 
-#Use
+#Installation
 
 1. Clone repository in your system
 
@@ -16,3 +16,8 @@ Developing desktop application using Electron and storing data to SQLite databas
 
     - `npm install`
     - `npm start` 
+    
+    
+#License
+
+This project is licensed under the ISC License - see the [LICENSE.md](https://github.com/theInfinite/electron-SQLite-integration/blob/master/LICENSE.md) file for details.
