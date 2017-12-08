@@ -15,7 +15,8 @@
     "demo",
     "nodejs",
     "database",
-    "desktop app"
+    "desktop app",
+    "electron sqlite integration"
   ],
   "author": "Sahil Soni",
   "license": "ISC",
